@@ -1,0 +1,8 @@
+.link {
+    color:#fff;
+    letter-spacing:0.16rem;
+}
+
+.link-wrapper:hover {
+    background-color:#555;
+}
