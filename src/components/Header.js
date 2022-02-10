@@ -1,6 +1,8 @@
 import { AppBar, Box, Typography } from '@mui/material';
 import { Link } from 'react-scroll'
 
+import '../styles/Header.css';
+
 import theme from '../theme';
             
 const Header = () => {
