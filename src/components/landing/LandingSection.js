@@ -35,18 +35,13 @@ const LandingSection = () => {
                         color='#fff'
                         fontWeight='600'
                         sx = {{
-                            p:3
+                            p:1
                         }}
                     >
-                        Hello, my name is what?
+                        Hello, my name is Madison.
                     </Typography>
-                    <Typography
-                        variant='body1'
-                        color='#fff'
-                        fontWeight='300'
-                    >
-                        Scroll down to see my projects
-                    </Typography>
+                    <Typography variant='body1' color='#fff' fontWeight='300' sx={{p:2}}><em>I am a full stack developer</em></Typography>
+                    <Typography variant='body1' color='#fff' fontWeight='300' sx={{fontSize:'18px'}}>Scroll down to see my projects</Typography>
                 </Box>
             </Box>
         </Box>
