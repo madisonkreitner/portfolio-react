@@ -1,8 +1,6 @@
 import { Box, Typography } from '@mui/material';
 import { Link } from 'react-scroll';
 
-import '../../styles/HeaderLink.css';
-
 const HeaderLink = ({ title, link }) => {
     return (
         <Box 
@@ -35,6 +33,7 @@ const HeaderLink = ({ title, link }) => {
                             alignItems: 'center',
                             paddingLeft: 3,
                             paddingRight: 3,
+                            letterSpacing: '0.2rem'
                         }}
                     >
                         <Box>{title}</Box>
