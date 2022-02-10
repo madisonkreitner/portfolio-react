@@ -45,7 +45,7 @@ const projects = [
     {
         name:'Real Estate Search',
         image: realestate,
-        stack: 'React, Redux, CSS',
+        stack: 'React, Redux, Next.js, CSS',
         description: 'A react application that generates a random quote at the press of a button. Post the quote to your Twitter or Tumblr account to share with your friends.',
         github: 'https://github.com/mbradley-github/random-quote-machine/tree/master'
     },

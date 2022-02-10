@@ -1,7 +1,4 @@
-.link {
-    letter-spacing:0.3rem;
-}
-
 .link-wrapper:hover {
     background-color:#555;
+    cursor:'pointer';
 }
