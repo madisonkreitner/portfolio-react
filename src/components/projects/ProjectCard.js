@@ -6,7 +6,7 @@ import defaultImage from '../../images/default.jpg';
 
 const ProjectCard = ({ project }) => {
     return (
-        <Grid item xs={4} sx={{
+        <Grid item xs={12} md={6} lg={4} sx={{
             display:'flex',
             justifyContent: 'center',
             alignItems: 'center'
@@ -17,7 +17,8 @@ const ProjectCard = ({ project }) => {
                 display:'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
-                p:3
+                p:3,
+                maxWidth: 500
             }}>
                 <Card elevation={6}>
                     <CardContent>
