@@ -38,8 +38,7 @@ const ContactSection = () => {
                     </Link>
                     <Link href={theme.contact.socials.linkedin} target='_blank' color='inherit' underline='hover' sx={{p:3}} >
                         <Box sx={{ display:'flex', justifyContent:'center', alignItems:'center' }}>
-                            <LinkedIn></LinkedIn
-                            >
+                            <LinkedIn></LinkedIn>
                             <Typography variant='h5'>LinkedIn</Typography>
                         </Box>
                     </Link>
