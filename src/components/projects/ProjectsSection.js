@@ -24,9 +24,10 @@ const projects = [
     {
         name:'Travel Advisor',
         image: travel,
-        stack: 'React, Material UI, Rapid API, Google Maps API, CSS',
-        description: 'A react application that generates a random quote at the press of a button. Post the quote to your Twitter or Tumblr account to share with your friends.',
-        github: 'https://github.com/mbradley-github/random-quote-machine/tree/master'
+        stack: 'React, Material UI, Rapid API, Google Maps API, Google Places API, CSS',
+        url: 'https://travel-mk.netlify.app/',
+        description: 'A travel application that lets the user search for restaurants, hotels, and attractions in an area. The user gets useful information about these places and can visit their website or TripAdvisor page.',
+        github: 'https://github.com/mbradley-github/travel-advisor'
     },
     {
         name:' Amazon API',
